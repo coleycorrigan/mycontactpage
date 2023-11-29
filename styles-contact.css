@@ -1,0 +1,188 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/beachsunrise.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+
+}
+
+.center {
+    width: 600px;
+	padding: 3%;
+    margin: 50px auto;
+ 	background: #d8e2dc3e; 
+	text-align: center;
+	border-radius: 30px; 
+	/* border: 4px dashed white */
+}
+
+   
+#logo {
+    margin-bottom: 30px;
+	margin-top: 10px;
+	text-align: center;
+	/* ----Logo fade in---- */
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+
+  @-moz-keyframes fadeIn { 
+	0% { opacity: 0; }
+	100% { opcatiy: 1; }
+  }
+  @-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opcatiy: 1; }
+  }
+  @-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opcatiy: 1; }
+  }
+  @-ms-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opcatiy: 1; }
+  }
+
+/* ----End logo fade in---- */
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/tto4kbs.css"> */
+	font-family: "regina", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 6em;
+    margin: 0px auto 10px auto;
+    color: #ffdfc8;
+}
+
+h2 {
+	 /* <link rel="stylesheet" href="https://use.typekit.net/tto4kbs.css"> */
+	font-family: "mixta-didone", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #ffe5d9;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/tto4kbs.css"> */
+	font-family: "mixta-didone", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #000000;
+}
+
+nav { 
+	/* <link rel="stylesheet" href="https://use.typekit.net/tto4kbs.css"> */
+	font-family: "elido", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2 em;
+	width: 400px; /* this is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside
+	the center div */
+	border: none;
+	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom the nav element, the zero eliminates the left and right sides of the border */ 
+	text-align: center;
+	margin-top: 2em; /* This adds a bit of space above the nav element */
+    }
+    
+nav li {
+	display: inline; /* this allows the block level elements to display next to one another */
+	}
+
+nav a {
+	display: inline-block;
+	padding: 4px; /* this adds space around each of the links */
+	}
+
+a { 
+	color: #ffe3e3;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+a:hover {
+	text-decoration: underline; /* This creates the underline underneath my links when hovering over it */
+	text-decoration-thickness: 2px;
+	
+	color: rgba(0, 0, 0, 0.811);
+	Background: rgba(139, 139, 139, 0.402);
+	border-radius: 8px;
+	}
